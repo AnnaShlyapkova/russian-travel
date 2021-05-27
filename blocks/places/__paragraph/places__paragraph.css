@@ -1,0 +1,19 @@
+.places__paragraph {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.83rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+      width: 90%;
+      margin: 0 auto;
+    }
+}
