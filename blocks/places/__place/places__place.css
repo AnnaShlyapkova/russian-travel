@@ -14,17 +14,19 @@
 
 @media screen and (max-width: 1023px)  {
   .places__place {
-    grid-column-gap: 28px;
-    padding-bottom: 73px;
+    grid-column-gap: 32px;
   }
+
 }
 
 @media screen and (max-width: 767px) {
-.places__place {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, min-content);
-      grid-row-gap: 32px;
-      padding-bottom: 50px;
-      justify-content: start;
+  .places__place {
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+      "Title"
+       "Url"
+       "Img"
+       "Text";
+    min-width: 320px;
     }
 }

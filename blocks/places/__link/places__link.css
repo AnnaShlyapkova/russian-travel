@@ -2,4 +2,9 @@
   color: #FFF;
   font-size: 1.12rem;
   line-height: 1.37rem;
+  text-decoration: underline;
+}
+
+.places__link:hover {
+  opacity: 0.8;
 }

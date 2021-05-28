@@ -10,4 +10,6 @@
   -moz-text-size-adjust: 100%;
   width: 100%;
   overflow-x: hidden;
+  max-width: 1280px;
+  margin: 0 auto;
 }

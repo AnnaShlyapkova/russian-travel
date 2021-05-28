@@ -1,10 +1,12 @@
 .places__website {
   align-self: end;
+  
 }
 
 @media screen and (max-width: 767px) {
-.places__website {
-      width: 90%;
-      margin: 0 auto;
+  .places__website {
+    width: 90%;
+    margin: 0 auto;
+    grid-area: Url;
     }
 }

@@ -3,19 +3,19 @@
   font-weight: 900;
   font-size: 6rem;
   line-height: 6.25rem;
-  width: 720px;
+  max-width: 720px;
   text-align: center;
 }
 
 @media screen and (max-width: 1279px){
   .lead__title {
-    width: 690px;
+    max-width: 690px;
   }
 }
 
 @media screen and (max-width: 1023px){
   .lead__title {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -23,6 +23,6 @@
   .lead__title {
       font-size: 2.5rem;
       line-height: 2.75rem;
-      width: 288px;
+      max-width: 288px;
     }
 }

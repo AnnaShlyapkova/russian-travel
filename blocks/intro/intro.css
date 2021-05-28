@@ -4,12 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 54%;
+  max-width: 54%;
   margin-left: 9.25rem;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
+    max-width: 67.4%;
     margin-left: 48px;
   }
 }
@@ -17,7 +18,7 @@
 @media screen and (max-width: 1023px)  {
   .intro {
     padding-top: 88px;
-    width: 93.7%;
+    max-width: 93.7%;
     margin: 0 auto;
   }
 }
@@ -25,6 +26,6 @@
 @media screen and (max-width: 767px) {
   .intro {
       padding-top: 64px;
-      width: 90%;
+      max-width: 90%;
     }
 }
