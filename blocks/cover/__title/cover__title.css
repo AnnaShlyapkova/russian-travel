@@ -5,25 +5,13 @@
   font-weight: 900;
   max-width: 560px;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 245px;
+  margin: 0;
 }
 
-@media screen and (max-width: 1279px){
-  .cover__title {
-    padding-top: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px){
-  .cover__title {
-    padding-top: 115px;
-  }
-}
 @media screen and (max-width: 767px) {
    .cover__title {
       font-size: 2rem;
       line-height: 2.187rem;
-      padding-top: 33px;
+      max-width: 288px;
     }
 }
