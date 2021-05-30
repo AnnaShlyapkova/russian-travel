@@ -16,5 +16,6 @@
     height: 320px;
     width: 100%;
     grid-area: Img;
+    object-fit: cover;
   }
 }
